@@ -9,6 +9,28 @@ header{
     background-color: black;
 }
 
+button{
+    color: white;
+    padding: 20px;
+}  
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header > p{
+    color: white;
+}
+#button{
+    color: white;
+    display: flex;
+}
+
+.none{
+    display: none;
+}
+
 #main{
     width: 80%;
     border: 1px solid black;
@@ -34,6 +56,7 @@ img{
     border: solid black 1px;
     height: 400px;
     margin: 20px;
+    margin-top: 50px;
 
 }
 
@@ -43,4 +66,5 @@ img{
 
 .card:hover{
     transform: scale(1.2);
+    box-shadow: -15px 15px 30px black;
 }
