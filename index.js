@@ -7,9 +7,6 @@ var button = document.querySelector('#yes');
 button.addEventListener('click', el => {
     el = el.target;
     var test = document.querySelectorAll(".card");
-    // if( test.classList.contains('jordan')){
-    //     test.classList.toggle('none');
-    // }
     test.forEach(element => {
         if(element.classList.contains('jordan')){
             element.classList.toggle('none');
@@ -42,3 +39,11 @@ button2.addEventListener('click', () =>{
     });
 
 })
+
+var sub = document.querySelector('.subimg').addEventListener('mouseover', (el) =>{
+    el =el.target;
+    
+    console.log(document.querySelector('.img').src);
+})
+
+// ajouter tri 

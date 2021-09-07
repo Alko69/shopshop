@@ -19,15 +19,19 @@
     </header>
     <div id="main">
         <div class="card jordan">
-            <img id="img" src="./imges/img1.jpg" alt="">
+            <img class="img" src="./imges/img1.jpg" alt="">
             <div class="subtext">
                 <p>Marque</p>
                 <p>Prix</p>
                 <p class="price">50</p>
             </div>
+            <div id="divsubimg">
+                <img data-subimg="img1" class="subimg" src="./imges/img5.jpg" alt="">
+                <img data-subimg="img2" class="subimg" src="./imges/img6.jpeg" alt="">
+            </div>
         </div>
         <div class="card nike jordan">
-            <img src="./imges/img2.jpeg" alt="">
+            <img class="img" src="./imges/img2.jpeg" alt="">
             <div class="subtext">
                 <p>Marque</p>
                 <p>Prix</p>
@@ -35,7 +39,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="./imges/img3.jpeg" alt="">
+            <img class="img" src="./imges/img3.jpeg" alt="">
             <div class="subtext">
                 <p>Marque</p>
                 <p>Prix</p>
@@ -43,7 +47,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="./imges/img4.jpeg" alt="">
+            <img class="img" src="./imges/img4.jpeg" alt="">
             <div class="subtext">
                 <p>Marque</p>
                 <p>Prix</p>

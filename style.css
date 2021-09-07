@@ -19,9 +19,21 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 header > p{
     color: white;
 }
+
+.subimg{
+    height: 70px;
+    width: 100px;
+}
+
+#divsubimg{
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
 #button{
     color: white;
     display: flex;
@@ -46,7 +58,7 @@ body{
     align-items: center;
 }
 
-img{
+.img{
     height: 200px;
     width: 250px;
     padding: 20px;
@@ -54,7 +66,7 @@ img{
 
 .card{
     border: solid black 1px;
-    height: 400px;
+    height: 450px;
     margin: 20px;
     margin-top: 50px;
 
