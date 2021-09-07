@@ -12,7 +12,7 @@ header{
 #main{
     width: 80%;
     border: 1px solid black;
-    height: 5000px;
+    height: 1000px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -25,7 +25,22 @@ body{
 }
 
 img{
-    height: 400px;
-    width: 30%;
+    height: 200px;
+    width: 250px;
     padding: 20px;
+}
+
+.card{
+    border: solid black 1px;
+    height: 400px;
+    margin: 20px;
+
+}
+
+.subtext{
+    padding: 20px;
+}
+
+.card:hover{
+    transform: scale(1.2);
 }
