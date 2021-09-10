@@ -1,9 +1,6 @@
-// var imgs = document.getElementById('img');
-// var test = imgs.getAttribute('src');
-// console.log(test);
-    
 var button = document.querySelector('#yes');
 
+// toggle de catégorie
 button.addEventListener('click', el => {
     el = el.target;
     var test = document.querySelectorAll(".card");
@@ -12,7 +9,6 @@ button.addEventListener('click', el => {
             element.classList.toggle('none');
         }
     });
-    
 })
 
 var essai = document.querySelector('#range');
@@ -20,12 +16,14 @@ var button2 = document.querySelector('#no');
 var value = document.querySelector('#value');
 var price = document.querySelectorAll('.price');
 
+// valeur de la jauge
 essai.addEventListener('input', (el) =>{
     el = el.target;
     var value = document.querySelector('#value');
     value.innerHTML = el.value;
 })
 
+// validation de la jauge
 button2.addEventListener('click', () =>{
     var increment = -1;
     price.forEach(element => {
@@ -33,17 +31,19 @@ button2.addEventListener('click', () =>{
         if(element.innerHTML > value.innerHTML){
             document.querySelectorAll('.card')[increment].classList.add('none');
         }
-        if(element.innerHTML < value.innerHTML){
+        if(element.innerHTML <= value.innerHTML){
             document.querySelectorAll('.card')[increment].classList.remove('none');
         }
     });
 
 })
 
+// changement image en mouseover
 var sub = document.querySelector('.subimg').addEventListener('mouseover', (el) =>{
     el =el.target;
-    
-    console.log(document.querySelector('.img').src);
+    var img1 = document.querySelector('#img');
+    var imgAttribute = el.getAttribute('src');
+    img1.setAttribute('src', imgAttribute);
 })
 
 // ajouter tri 

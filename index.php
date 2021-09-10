@@ -19,7 +19,10 @@
     </header>
     <div id="main">
         <div class="card jordan">
-            <img class="img" src="./imges/img1.jpg" alt="">
+            <?php 
+             $src = './imges/img1.jpg' ;
+             echo '<img id="img" class="img" src=" ' . $src . '" alt="">';
+            ?>
             <div class="subtext">
                 <p>Marque</p>
                 <p>Prix</p>
